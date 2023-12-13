@@ -33,7 +33,6 @@ char	*ft_strrchr(const char *string, int caractere)
 	return (NULL);
 }
 
-
 // int main(){
 // 	printf("%p\n", strrchr("Hello", '\0'));
 // 	printf("%p\n", ft_strrchr("Hello", '\0'));

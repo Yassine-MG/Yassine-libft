@@ -6,7 +6,7 @@
 /*   By: ymghazli <ymghazli@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/27 12:44:32 by yassine           #+#    #+#             */
-/*   Updated: 2023/12/10 18:13:05 by ymghazli         ###   ########.fr       */
+/*   Updated: 2023/12/13 22:16:25 by ymghazli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,8 @@ char	*ft_strnstr(const char *s, const char *find, size_t slen)
 
 	i = 0;
 	j = 0;
+	if (!s && find && slen == 0)
+		return ((char *)s);
 	if (*find == '\0')
 		return ((char *)s);
 	while (i <= slen && s[i] != '\0')
@@ -32,9 +34,7 @@ char	*ft_strnstr(const char *s, const char *find, size_t slen)
 			j++;
 		}
 		if (find[j] == '\0')
-		{
 			return ((char *)(s + i));
-		}
 		j = 0;
 		i++;
 	}

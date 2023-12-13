@@ -6,7 +6,7 @@
 /*   By: ymghazli <ymghazli@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/27 12:44:03 by yassine           #+#    #+#             */
-/*   Updated: 2023/12/12 10:54:38 by ymghazli         ###   ########.fr       */
+/*   Updated: 2023/12/13 22:07:09 by ymghazli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,8 +71,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	return (result);
 }
 
-int main(){
-    char a[] = "Yassine";
-    // char b[] = " Is The Best";
-    printf("%s", ft_strjoin(a, NULL));
-}
+// int main(){
+//     char a[] = "Yassine";
+//     // char b[] = " Is The Best";
+//     printf("%s", ft_strjoin(a, NULL));
+// }

@@ -29,7 +29,6 @@ void	ft_putstr_fd(char *s, int fd)
 }
 // protect
 
-
 // int main(){
 // 	// char a[] = "NULL";
 // 	// char b[] = "NUxx";

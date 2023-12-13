@@ -6,7 +6,7 @@
 /*   By: ymghazli <ymghazli@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/27 12:39:16 by yassine           #+#    #+#             */
-/*   Updated: 2023/12/12 15:21:26 by ymghazli         ###   ########.fr       */
+/*   Updated: 2023/12/13 22:13:28 by ymghazli         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,8 +99,8 @@ char	*ft_itoa(int n)
 	ft_convert_to_string(n, numstr, &i);
 	return (numstr);
 }
-int main(){
-    int i = 0;
-    // int j = -2147483648;
-    printf("%s",ft_itoa(i));
-}
+// int main(){
+//     int i = 0;
+//     // int j = -2147483648;
+//     printf("%s",ft_itoa(i));
+// }
